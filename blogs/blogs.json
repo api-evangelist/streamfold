@@ -1,0 +1,21 @@
+{
+  "repo": "streamfold",
+  "feeds": [
+    {
+      "source": "https://rotel.dev/blog/rss.xml",
+      "feed_url": "https://rotel.dev/blog/rss.xml",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://rotel.dev/docs/setup/getting-started",
+      "feed_url": "https://rotel.dev/blog/rss.xml",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 3,
+  "fetched": "2026-08-01T15:49:00Z"
+}

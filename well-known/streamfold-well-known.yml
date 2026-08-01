@@ -1,0 +1,21 @@
+generated: '2026-07-21'
+method: searched
+source: probe of rotel.dev and streamfold.com
+host: https://rotel.dev
+note: >-
+  Rotel is an open-source OpenTelemetry collector, not a hosted SaaS API, so no
+  /.well-known discovery surface is published. All probed paths returned 404.
+  Recorded as valid negative results; no WellKnown/SecurityTxt pointer emitted.
+documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /llms.txt
+    status: 404

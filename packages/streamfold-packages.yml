@@ -1,0 +1,39 @@
+generated: '2026-07-21'
+method: searched
+source: https://rotel.dev/docs
+description: >-
+  First-party client libraries for Rotel, the OpenTelemetry collector built by
+  Streamfold. Verified against the public package registries (PyPI and
+  https://registry.npmjs.org) and the project READMEs. The Rotel core is a Rust
+  binary distributed via GitHub releases/Docker (the crates.io `rotel` name is an
+  unrelated third-party crate, so it is NOT listed here). Note the PyPI `pyrotel`
+  name is also an unrelated third-party project; Streamfold's Python package is
+  published as `rotel`.
+packages:
+  - language: python
+    registry: pypi
+    name: rotel
+    url: https://pypi.org/project/rotel/
+    source: https://github.com/streamfold/pyrotel
+    install: pip install rotel
+    version: 0.0.1a15
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@streamfold/rotel"
+    url: https://www.npmjs.com/package/@streamfold/rotel
+    source: https://github.com/streamfold/rotel-nodejs
+    install: npm install @streamfold/rotel
+    version: 0.0.8-alpha
+    official: true
+  - language: rust
+    registry: github
+    name: rotel
+    url: https://github.com/streamfold/rotel
+    source: https://github.com/streamfold/rotel
+    install: "download from https://github.com/streamfold/rotel/releases"
+    note: >-
+      Core collector binary (Apache-2.0). Distributed as GitHub release binaries
+      and container images; also available as an AWS Lambda extension layer
+      (github.com/streamfold/rotel-lambda-extension).
+    official: true

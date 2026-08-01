@@ -1,7 +1,28 @@
 aid: streamfold
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/streamfold.png
 name: Streamfold
-description: Streamfold is a company surfaced as a portfolio company of uncork-capital and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Streamfold is the company behind Rotel, a high-performance, resource-efficient
+  OpenTelemetry collector written in Rust. Rotel focuses on minimal overhead and
+  fast cold-starts for resource-constrained environments such as AWS Lambda,
+  serverless functions, and embedded systems, supporting OTLP/gRPC, OTLP/HTTP,
+  and Kafka receivers with exporters for ClickHouse, Datadog, AWS X-Ray, Kafka,
+  and OTLP. It ships Python (pyrotel) and Node.js (@streamfold/rotel) embeddings,
+  an AWS Lambda extension layer, a CloudWatch Lambda forwarder, and a Rust
+  processor SDK. Rotel is open source under Apache-2.0. In March 2026 Streamfold
+  announced it is joining Cursor to bring observability to agentic, AI-driven
+  software systems. Streamfold was a portfolio company of Uncork Capital.
 url: https://raw.githubusercontent.com/api-evangelist/streamfold/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +32,58 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- OpenTelemetry
+- Observability
+- Telemetry
+- Collector
+- Rust
+- Serverless
+- AWS Lambda
+- Monitoring
+- Open Source
 apis: []
+common:
+- type: DomainSecurity
+  url: security/streamfold-domain-security.yml
+- type: Website
+  url: https://rotel.dev
+- type: DeveloperPortal
+  url: https://rotel.dev
+- type: Documentation
+  url: https://rotel.dev/docs
+- type: GettingStarted
+  url: https://rotel.dev/docs/setup/getting-started
+- type: Blog
+  url: https://rotel.dev/blog
+- type: ChangeLog
+  url: https://rotel.dev/changelog
+- type: Support
+  url: https://discord.gg/reUqNWTSGC
+- type: GitHubOrganization
+  url: https://github.com/streamfold
+- type: SourceCode
+  url: https://github.com/streamfold/rotel
+- type: License
+  url: https://github.com/streamfold/rotel/blob/main/LICENSE
+- type: Packages
+  url: packages/streamfold-packages.yml
+- type: SDKs
+  url: packages/streamfold-packages.yml
+- type: ChangeLog
+  url: changelog/streamfold-changelog.yml
+  name: Rotel changelog (structured)
+- type: LLMsTxt
+  url: llms/streamfold-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 5
+  pass: local-v1

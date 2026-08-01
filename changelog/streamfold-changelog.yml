@@ -1,0 +1,36 @@
+generated: '2026-07-21'
+method: searched
+source: https://rotel.dev/changelog
+scheme: semver
+note: >-
+  Rotel ships two independently versioned release trains: the Rotel core
+  collector and the Rotel Lambda Extension. Versions/dates captured verbatim from
+  the public changelog; recent window only.
+current:
+  rotel: 0.2.2
+  lambda_extension: 0.1.5
+entries:
+  - component: lambda-extension
+    version: 0.1.5
+    date: '2026-07-06'
+    highlight: Lambda Extension release with serverless integration updates.
+  - component: rotel
+    version: 0.2.2
+    date: '2026-05-04'
+    highlight: Rotel core update with framework enhancements.
+  - component: lambda-extension
+    version: 0.1.4
+    date: '2026-05-04'
+    highlight: Lambda Extension update released alongside Rotel core improvements.
+  - component: lambda-extension
+    version: 0.1.3
+    date: '2026-03-18'
+    highlight: Lambda Extension maintenance release for improved compatibility.
+  - component: rotel
+    version: 0.2.1
+    date: '2026-03-09'
+    highlight: Rotel framework update preceding the Lambda Extension sync.
+  - component: lambda-extension
+    version: 0.1.2
+    date: '2026-03-05'
+    highlight: Lambda Extension release coordinated with Rotel v0.2.0.
