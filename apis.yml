@@ -1,4 +1,15 @@
 aid: streamfold
+deliveryModel:
+  model: unknown
+  open_source: unknown
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - repository-unlicensed
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
@@ -57,6 +68,10 @@ tags_raw:
 - Open Source
 apis: []
 common:
+- type: IssueTracker
+  url: https://github.com/streamfold/rotel/issues
+- type: Releases
+  url: https://github.com/streamfold/rotel/releases
 - type: DomainSecurity
   url: security/streamfold-domain-security.yml
 - type: Website
